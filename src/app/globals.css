@@ -1,0 +1,349 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: var(--font-newsreader), Georgia, serif;
+  --font-sans: var(--font-plus-jakarta), system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  /* Surface Foundations */
+  --bg-primary: #F8F6F0;
+  --bg-surface: #F4F1EA;
+  --bg-surface-subtle: #EFECE4;
+  --bg-forest-deep: #142B20;
+  --bg-forest-surface: #1B3B2B;
+
+  /* Text & Typographic Tones */
+  --text-primary: #1B1D1C;
+  --text-muted: #515652;
+  --text-light: #858B86;
+  --text-inverse: #F8F6F0;
+  --text-inverse-muted: #C5D3C8;
+
+  /* Accents & Signals */
+  --accent-forest: #1B3B2B;
+  --accent-forest-hover: #11251B;
+  --accent-sage: #D3DDD6;
+  --accent-sage-dark: #687D70;
+  --accent-gold: #C5A880;
+
+  /* Borders & Dividers */
+  --border-subtle: #E5E0D6;
+  --border-muted: rgba(27, 59, 43, 0.08);
+  --border-inverse: rgba(248, 246, 240, 0.15);
+
+  /* Shadows (Subtle, Atmospheric Ambient Only) */
+  --shadow-editorial: 0 4px 20px -2px rgba(27, 59, 43, 0.04), 0 2px 6px -1px rgba(27, 59, 43, 0.02);
+  --shadow-floating: 0 12px 36px -6px rgba(27, 59, 43, 0.07), 0 4px 12px -2px rgba(27, 59, 43, 0.03);
+}
+
+/* Base Body Application */
+body {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+/* Typography Utilities */
+.font-serif {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* Tailwind v4 Utility Directives */
+@utility bg-primary-canvas {
+  background-color: var(--bg-primary);
+}
+
+@utility bg-surface-card {
+  background-color: var(--bg-surface);
+}
+
+@utility text-charcoal {
+  color: var(--text-primary);
+}
+
+@utility text-forest {
+  color: var(--accent-forest);
+}
+
+/* Standard CSS Utility Fallbacks */
+.bg-primary-canvas {
+  background-color: var(--bg-primary);
+}
+
+.bg-surface-card {
+  background-color: var(--bg-surface);
+}
+
+.text-charcoal {
+  color: var(--text-primary);
+}
+
+.text-forest {
+  color: var(--accent-forest);
+}
+
+/* ==========================================================================
+   Liquid Glass & Specular Surface System (Frutiger Aero Refinement)
+   ========================================================================== */
+
+.glass-panel {
+  background: rgba(248, 246, 240, 0.78);
+  backdrop-filter: blur(16px) saturate(150%);
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  border: 1px solid rgba(229, 224, 214, 0.85);
+  box-shadow: 
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.8),
+    0 8px 28px -4px rgba(20, 43, 32, 0.05);
+}
+
+.glass-panel-forest {
+  background: rgba(20, 43, 32, 0.85);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid rgba(248, 246, 240, 0.18);
+  box-shadow: 
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.25),
+    0 12px 36px -6px rgba(10, 25, 18, 0.25);
+}
+
+.glass-pill-control {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(229, 224, 214, 0.85);
+  box-shadow: 
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.9),
+    0 4px 12px -2px rgba(20, 43, 32, 0.04);
+}
+
+/* Subtle Specular Sheen (Delicate Light Glaze) */
+.specular-sheen {
+  position: relative;
+  overflow: hidden;
+}
+.specular-sheen::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.28) 0%,
+    rgba(255, 255, 255, 0.06) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Smooth Interactive Card Lift with Demagnification on Leave */
+.card-hover-lift {
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.25s ease-out;
+}
+@media (hover: hover) and (pointer: fine) {
+  .card-hover-lift:hover {
+    transform: translateY(-3px) scale(1.018);
+    box-shadow: 
+      inset 0 1px 1px 0 rgba(255, 255, 255, 0.7),
+      0 12px 32px -4px rgba(20, 43, 32, 0.08);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-hover-lift {
+    transition: none !important;
+  }
+  .card-hover-lift:hover {
+    transform: none !important;
+  }
+}
+
+/* ==========================================================================
+   Matte Focus & Satin Light-Sweep System (Section 5)
+   ========================================================================== */
+
+/* Travelling Satin Specular Sheen (Subtle Architectural Highlight) */
+.matte-glass-surface {
+  position: relative;
+  overflow: hidden;
+}
+.matte-glass-surface::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.02) 25%,
+    rgba(255, 255, 255, 0.16) 48%,
+    rgba(255, 255, 255, 0.02) 70%,
+    transparent 100%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+  pointer-events: none;
+  border-radius: inherit;
+  z-index: 2;
+}
+@media (hover: hover) and (pointer: fine) {
+  .matte-glass-surface:hover::after {
+    transform: translateX(120%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .matte-glass-surface::after {
+    display: none;
+  }
+}
+
+/* Matte Sibling Softening Group */
+@media (hover: hover) and (pointer: fine) {
+  .matte-focus-group:has(.matte-focus-item:hover) .matte-focus-item:not(:hover) {
+    opacity: 0.86;
+    filter: blur(0.4px);
+    transition: opacity 0.3s cubic-bezier(0.22, 1, 0.36, 1), filter 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .matte-focus-group .matte-focus-item {
+    opacity: 1 !important;
+    filter: none !important;
+    transition: none !important;
+  }
+}
+
+/* ==========================================================================
+   Stacked Glass Card & Surface System (Apple Liquid Glass Inspiration)
+   ========================================================================== */
+
+/* Glass Bubble Button Primitive */
+.glass-bubble-btn {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.glass-bubble-btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 48%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.08) 60%,
+    transparent 100%
+  );
+  border-radius: inherit;
+  pointer-events: none;
+  transition: opacity 0.25s ease-out;
+}
+@media (hover: hover) and (pointer: fine) {
+  .glass-bubble-btn:hover {
+    transform: translateY(-2px) scale(1.015);
+    box-shadow: 0 8px 24px -4px rgba(20, 43, 32, 0.25);
+  }
+  .glass-bubble-btn:hover::before {
+    opacity: 1;
+  }
+  .glass-bubble-btn:active {
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 2px 6px -1px rgba(20, 43, 32, 0.2);
+  }
+}
+
+/* Stacked Glass Card System (Layered Optical Depth) */
+.stacked-card {
+  position: relative;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.25s ease-out;
+}
+.stacked-card::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(229, 224, 214, 0.6);
+  z-index: -1;
+  transform: translate3d(0, 4px, 0) scale(0.985);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 0.3s ease-out;
+  opacity: 0.65;
+  pointer-events: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .stacked-card:hover {
+    transform: translateY(-3px) scale(1.015);
+    box-shadow: 
+      inset 0 1.5px 2px 0 rgba(255, 255, 255, 0.95),
+      0 16px 36px -6px rgba(20, 43, 32, 0.1);
+  }
+  .stacked-card:hover::before {
+    transform: translate3d(0, 7px, 0) scale(0.975);
+    opacity: 0.9;
+  }
+}
+
+.stacked-card-forest {
+  position: relative;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+              border-color 0.25s ease-out;
+}
+.stacked-card-forest::before {
+  content: "";
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: rgba(20, 43, 32, 0.55);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(248, 246, 240, 0.15);
+  z-index: -1;
+  transform: translate3d(0, 4px, 0) scale(0.985);
+  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+              opacity 0.3s ease-out;
+  opacity: 0.6;
+  pointer-events: none;
+}
+@media (hover: hover) and (pointer: fine) {
+  .stacked-card-forest:hover {
+    transform: translateY(-3px) scale(1.015);
+    box-shadow: 
+      inset 0 1.5px 2px 0 rgba(255, 255, 255, 0.3),
+      0 18px 40px -6px rgba(10, 25, 18, 0.28);
+  }
+  .stacked-card-forest:hover::before {
+    transform: translate3d(0, 7px, 0) scale(0.975);
+    opacity: 0.85;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glass-bubble-btn,
+  .stacked-card,
+  .stacked-card-forest {
+    transform: none !important;
+    transition: none !important;
+  }
+  .glass-bubble-btn::before,
+  .stacked-card::before,
+  .stacked-card-forest::before {
+    transform: none !important;
+  }
+}
