@@ -72,8 +72,8 @@ export function HeroSplit() {
               {/* Right Column: Architectural Photographic Media Panel */}
               <div className="lg:col-span-6 relative min-h-[340px] sm:min-h-[420px] lg:min-h-full overflow-hidden bg-forest group">
                 <Image
-                  src="/images/hero/hero-architecture.jpg"
-                  alt="Contemporary institutional legal architecture"
+                  src="/images/Surajit's Images/DSC02474.png"
+                  alt="Dr. Surajit Sinha, Advocate"
                   fill
                   priority
                   sizes="(max-width: 1024px) 100vw, 50vw"
@@ -88,10 +88,10 @@ export function HeroSplit() {
 
                 {/* Editorial Overlay Caption in Liquid Glass Card (Frame 001/038) */}
                 <div className="absolute inset-x-6 sm:inset-x-8 bottom-6 sm:bottom-8 p-4 sm:p-5 rounded-2xl bg-forest-deep/80 backdrop-blur-md border border-warm-ivory/20 shadow-[inset_0_1px_1px_rgba(255,255,255,0.25)] text-warm-ivory">
-                  <p className="text-[11px] sm:text-xs font-sans font-semibold tracking-[0.18em] uppercase text-muted-sage mb-1">
+                  <p className="text-[11px] sm:text-xs font-sans font-semibold tracking-[0.18em] uppercase bg-gradient-to-r from-white via-zinc-200 to-zinc-400 bg-clip-text text-transparent drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] mb-1">
                     Factual Rigor &bull; Statutory Precision
                   </p>
-                  <p className="text-xs sm:text-sm font-sans text-warm-ivory/80 leading-snug">
+                  <p className="text-xs sm:text-sm font-sans text-zinc-100 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] leading-snug">
                     Chambers practicing across Criminal Law, Public Prosecution, Cyber Law, Civil &amp; DRT Proceedings
                   </p>
                 </div>
