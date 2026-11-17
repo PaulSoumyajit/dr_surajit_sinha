@@ -14,17 +14,47 @@ import type { CourtExperienceItem } from "@/types";
 export const COURT_EXPERIENCE_ITEMS: CourtExperienceItem[] = [
   {
     id: "exp-public-prosecution",
-    title: "Public Prosecution & State Representation",
+    title: "Former Public Prosecutor & State Representation",
     forum: "Sub-Divisional & District Criminal Courts",
-    role: "Assistant Public Prosecutor (APP) & Public Prosecutor (PP)",
+    role: "Former Public Prosecutor (APP, PP & Sub-Divisional PP)",
     tenure: "Approx. 10 Years Service",
     category: "prosecution",
     description:
-      "Extensive state prosecution tenure conducting criminal trials, examining witnesses, arguing bail and remand applications, formulating charges, and presenting official prosecution briefs in accordance with statutory duties under the Code of Criminal Procedure.",
+      "Prominent state prosecution tenure as Former Public Prosecutor, representing the State across trial and special criminal courts. Conducting sessions trials, examining witnesses, arguing bail and remand applications, formulating charges, and presenting official prosecution briefs in accordance with statutory duties under the Code of Criminal Procedure.",
     statutory_basis: [
       "Section 24 & 25, Code of Criminal Procedure, 1973 (CrPC)",
       "Indian Penal Code, 1860 (IPC)",
       "Indian Evidence Act, 1872",
+    ],
+  },
+  {
+    id: "exp-highcourt-supremecourt",
+    title: "High Court & Supreme Court Matters",
+    forum: "High Court of Judicature & Supreme Court of India",
+    role: "Advocate — High Court & Lower Courts",
+    tenure: "Professional Matter Exposure",
+    category: "civil-writ",
+    description:
+      "Professional experience involving matters before the High Court and Supreme Court, alongside legal proceedings before lower courts. Experience encompasses drafting pleadings, advising on appellate and constitutional jurisprudence, and coordinating comprehensive matter strategies between subordinate trials and superior courts.",
+    statutory_basis: [
+      "Article 226 & 227, Constitution of India (High Court Jurisdiction)",
+      "Article 136 & 32, Constitution of India (Supreme Court Matters)",
+      "Advocates Act, 1961",
+    ],
+  },
+  {
+    id: "exp-lower-court-standing",
+    title: "Lower Court & Judges Court Advocacy",
+    forum: "Judges Court, Sessions Courts & Subordinate Benches",
+    role: "Advocate (Senior Lower Court Standing)",
+    tenure: "Extensive Trial Court Standing",
+    category: "criminal-trial",
+    description:
+      "Extensive senior standing and experience appearing before Judges Court, Sessions Courts, and subordinate criminal benches in complex trials, bail proceedings, and evidentiary inquiries.",
+    statutory_basis: [
+      "Code of Criminal Procedure, 1973",
+      "Indian Evidence Act, 1872",
+      "Civil Procedure Code, 1908",
     ],
   },
   {

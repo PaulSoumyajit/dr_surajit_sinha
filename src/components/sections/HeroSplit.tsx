@@ -28,21 +28,22 @@ export function HeroSplit() {
                 <div>
                   <div className="inline-flex items-center gap-2 text-[11px] sm:text-xs font-sans font-semibold tracking-[0.16em] uppercase text-muted-sage mb-6">
                     <span className="w-1.5 h-1.5 rounded-full bg-muted-sage shrink-0" aria-hidden="true" />
-                    <span>Criminal Law &bull; Public Prosecution &bull; Cyber Law</span>
+                    <span>Criminal Lawyer &bull; Ex Public Prosecutor &bull; High Court &amp; Supreme Court</span>
                   </div>
 
                   <h1
                     id="hero-title"
                     className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-[54px] font-normal tracking-tight text-warm-ivory leading-[1.12]"
                   >
-                    Criminal Law. <br />
-                    <span className="italic font-normal text-muted-sage">Public Prosecution. Cyber Law.</span>
+                    Criminal Lawyer. <br />
+                    <span className="italic font-normal text-muted-sage">Ex Public Prosecutor. High Court &amp; Supreme Court Advocate.</span>
                   </h1>
 
                   <p className="mt-6 text-sm sm:text-base lg:text-lg font-sans text-warm-ivory/80 leading-relaxed max-w-lg">
-                    Advocate with a professional background spanning criminal and civil proceedings,
-                    public prosecution, cybercrime-related matters, banking and debt recovery, and land
-                    and revenue-related legal work.
+                    Dr. Surajit Sinha is an Advocate with a professional background spanning criminal law,
+                    public prosecution, High Court and Supreme Court matters, civil proceedings, cybercrime
+                    and cyber law, POCSO-related prosecution, banking and Debt Recovery Tribunal matters,
+                    and land and revenue-related legal work.
                   </p>
                 </div>
 
@@ -92,7 +93,7 @@ export function HeroSplit() {
                     Factual Rigor &bull; Statutory Precision
                   </p>
                   <p className="text-xs sm:text-sm font-sans text-zinc-100 drop-shadow-[0_1px_2px_rgba(0,0,0,0.8)] leading-snug">
-                    Chambers practicing across Criminal Law, Public Prosecution, Cyber Law, Civil &amp; DRT Proceedings
+                    Chambers practicing across Criminal Law, Public Prosecution, High Court &amp; Supreme Court Matters, Cyber Law &amp; DRT Proceedings
                   </p>
                 </div>
               </div>

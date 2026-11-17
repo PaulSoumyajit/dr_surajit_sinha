@@ -60,7 +60,7 @@ Before making telephone numbers and email addresses public on Google Business Pr
 ## 5. Approved Business Description (750 Characters Max)
 
 ```text
-Dr. Surajit Sinha is an Advocate practicing before the High Court and Lower Courts in West Bengal, with a focus on Criminal Law, Public Prosecution, and Cyber Law. His background includes approximately 19 years of criminal practice, 10 years as an Assistant Public Prosecutor and Public Prosecutor, including service as District POCSO Public Prosecutor-in-Charge and District Cyber Crime Public Prosecutor. He holds a PhD in Cyber Law and E-commerce along with postgraduate degrees in law (LL.M.), computer applications (MCA), and commerce (M.Com.). Practice disciplines also encompass civil and writ proceedings, Debt Recovery Tribunal (DRT) matters, and land revenue litigation. Professional consultations are arranged by appointment.
+Dr. Surajit Sinha is an Advocate practicing before the High Court and Lower Courts in West Bengal, with a focus on Criminal Law, Public Prosecution, and High Court & Supreme Court Matters. His background includes approximately 19 years of criminal litigation, 10 years as a Former Public Prosecutor (including APP, PP, and Sub-Divisional PP), District POCSO Public Prosecutor-in-Charge, and District Cyber Crime Public Prosecutor. He holds an earned PhD in Cyber Law and E-commerce along with postgraduate degrees in law (LL.M.), computer applications (MCA), and commerce (M.Com.). Practice disciplines also encompass civil proceedings, Debt Recovery Tribunal (DRT) matters, and land revenue litigation. Professional consultations are arranged by appointment.
 ```
 
 ---

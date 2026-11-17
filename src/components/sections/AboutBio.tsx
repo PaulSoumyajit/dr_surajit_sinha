@@ -38,9 +38,9 @@ export function AboutBio() {
               <span className="italic text-forest">of Dr. Surajit Sinha.</span>
             </h1>
             <p className="mt-5 text-base sm:text-lg md:text-xl font-sans text-charcoal/75 leading-relaxed">
-              Advocate practicing across the High Court and lower courts, combining extensive criminal
-              litigation and public prosecution experience with specialized doctoral research in cyber
-              law and e-commerce.
+              Advocate practising in High Court and Supreme Court matters alongside extensive lower court
+              and Judges Court practice, combining criminal litigation and Former Public Prosecutor experience
+              with doctoral research in cyber law and e-commerce.
             </p>
           </div>
 
@@ -91,7 +91,7 @@ export function AboutBio() {
                 </div>
                 <div className="mt-4 pt-4 border-t border-border-subtle/80 flex items-center justify-between text-xs text-charcoal/65">
                   <span>Practice Forums</span>
-                  <span className="font-medium text-charcoal">High Court &amp; Lower Courts, West Bengal</span>
+                  <span className="font-medium text-charcoal">High Court, Supreme Court &amp; Lower Courts</span>
                 </div>
               </div>
             </div>
@@ -102,25 +102,29 @@ export function AboutBio() {
                 <p className="text-lg sm:text-xl font-serif text-charcoal leading-relaxed">
                   Dr. Surajit Sinha is an Advocate whose legal career is anchored in rigorous trial
                   advocacy, state public prosecution, and specialized digital jurisprudence. With
-                  approximately nineteen years of criminal legal practice across Birbhum district courts
-                  and the High Court at Calcutta, his practice emphasizes procedural accuracy, evidentiary
-                  discipline, and constitutional fairness.
+                  approximately nineteen years of criminal legal practice across lower courts, Sessions
+                  and Judges Courts, and professional experience involving matters before the High Court
+                  and Supreme Court, his practice emphasizes procedural accuracy, evidentiary discipline,
+                  and constitutional fairness.
                 </p>
 
                 <p className="text-base sm:text-[17px] leading-relaxed">
-                  His professional trajectory includes a decade of public prosecution service representing
-                  the State as Assistant Public Prosecutor (APP), Public Prosecutor (PP), and Sub-Divisional
-                  Public Prosecutor. In specialized appointments, he served as District POCSO Public Prosecutor-in-Charge,
-                  overseeing sensitive child safeguarding proceedings under strict in-camera confidentiality, and as
-                  District Cyber Crime Public Prosecutor, prosecuting offenses under the Information Technology Act.
+                  A distinguished dimension of his career is his extensive tenure as a Former Public
+                  Prosecutor, dedicating a decade of public service to representing the State as Assistant
+                  Public Prosecutor (APP), Public Prosecutor (PP), and Sub-Divisional Public Prosecutor. In
+                  specialized appointments, he served as District POCSO Public Prosecutor-in-Charge, overseeing
+                  sensitive child safeguarding proceedings under strict in-camera confidentiality, and as District
+                  Cyber Crime Public Prosecutor, prosecuting complex offenses under the Information Technology Act.
                 </p>
 
                 <p className="text-base sm:text-[17px] leading-relaxed">
-                  Dr. Sinha brings a rare multidisciplinary foundation to the legal profession. He holds a Doctor
-                  of Philosophy (PhD) in Cyber Law and E-commerce, complemented by postgraduate degrees in law (LL.M.),
-                  computer applications (MCA), and commerce (M.Com.), alongside technical certifications in ethical
-                  hacking and network infrastructure. This technical fluency enables him to evaluate complex electronic
-                  records, digital trails, and statutory certifications under Section 65B with forensic precision.
+                  Dr. Sinha brings a rare multidisciplinary foundation to the legal profession. He holds an earned
+                  Doctor of Philosophy (PhD) in Cyber Law and E-commerce, with doctoral research focused on the
+                  <em>&ldquo;Role of Law in Controlling E-Commerce and Ethical Hacking in the Global Market.&rdquo;</em>
+                  His postgraduate degrees encompass law (LL.M.), computer applications (MCA), and commerce (M.Com.),
+                  alongside technical certifications in ethical hacking and network infrastructure. In recognition of his
+                  cross-disciplinary engagement with computational sciences, he also holds an Honorary Doctorate in
+                  Artificial Intelligence and Machine-Level Language, maintained distinctly as an honorary distinction.
                 </p>
 
                 {/* Editorial Pull-Quote / Principle */}
@@ -128,7 +132,7 @@ export function AboutBio() {
                   <blockquote className="m-0">
                     <p className="font-serif italic text-lg sm:text-xl text-charcoal leading-snug">
                       &ldquo;Substantive advocacy is forged through meticulous command of the factual record,
-                      fidelity to constitutional due process, and a commitment to honesty, integrity, and
+                      fidelity to constitutional due process, and an unwavering commitment to honesty, integrity, and
                       public justice.&rdquo;
                     </p>
                     <cite className="block mt-2 text-xs font-sans not-italic font-semibold tracking-wider uppercase text-forest">
@@ -138,10 +142,12 @@ export function AboutBio() {
                 </div>
 
                 <p className="text-base sm:text-[17px] leading-relaxed">
-                  Beyond criminal and cyber law, his background encompasses five years of practice at Jalan &amp; Jalan
-                  Solicitor Firm in Kolkata, extensive proceedings before Debt Recovery Tribunals (DRT I, II, and III),
-                  civil suits, High Court writ petitions, and West Bengal land revenue matters (BLLRO, DLLRO, LRT).
-                  He has also contributed to legal academia through teaching experience as a Lecturer at Barrackpore Training College.
+                  Beyond criminal trials and state prosecution, his practice encompasses five years of engagement with
+                  premier solicitor firm Jalan &amp; Jalan in Kolkata, extensive proceedings before Debt Recovery
+                  Tribunals (DRT I, II, and III), civil suits, High Court and Supreme Court matters, and West Bengal
+                  land and revenue proceedings before BLLRO, DLLRO, and LRT authorities. His scholarly commitment
+                  extends to legal academia, with teaching experience as a Lecturer at SVSPA, Barrackpore Police
+                  Training College, and as Teacher of Law and Commercial Law at Satyen Bose National Science College.
                 </p>
               </div>
 

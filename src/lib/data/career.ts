@@ -12,11 +12,30 @@ export const CAREER_MILESTONES: CareerMilestone[] = [
   {
     id: "milestone-01",
     year: "10 Yrs",
-    title: "Public Prosecution Service",
+    title: "Former Public Prosecutor & State Representation",
     category: "Prosecution",
     description:
-      "A decade of public prosecution service representing the State as Assistant Public Prosecutor (APP), Public Prosecutor (PP), and Sub-Divisional Public Prosecutor across trial and special courts.",
+      "A decade of public prosecution service representing the State as Former Public Prosecutor, including roles as Assistant Public Prosecutor (APP), Public Prosecutor (PP), and Sub-Divisional Public Prosecutor across trial and special courts.",
     highlight: true,
+    verification_status: "verified",
+  },
+  {
+    id: "milestone-hc-sc",
+    year: "Matters",
+    title: "High Court & Supreme Court Matters",
+    category: "Superior Courts",
+    description:
+      "Professional experience involving matters before the High Court and Supreme Court, alongside legal proceedings before lower courts.",
+    highlight: true,
+    verification_status: "verified",
+  },
+  {
+    id: "milestone-trial-standing",
+    year: "Standing",
+    title: "Lower Court & Judges Court Advocacy",
+    category: "Trial Standing",
+    description:
+      "Senior standing and extensive experience in trial advocacy appearing before subordinate courts and Judges Court in complex criminal defenses, sessions trials, and evidentiary inquiries.",
     verification_status: "verified",
   },
   {
@@ -79,10 +98,10 @@ export const CAREER_MILESTONES: CareerMilestone[] = [
   {
     id: "milestone-08",
     year: "Faculty",
-    title: "Lecturer — Barrackpore Training College",
+    title: "Lecturer — SVSPA, Barrackpore Police Training College",
     category: "Academic & Teaching",
     description:
-      "Academic and teaching experience as a Lecturer at Barrackpore Training College, contributing to higher educational instruction and scholarly discourse.",
+      "Professional teaching experience as a Lecturer at SVSPA, Barrackpore Police Training College, delivering instruction within police training and administrative legal curricula, alongside academic instruction at Satyen Bose National Science College.",
     verification_status: "verified",
   },
   {
@@ -122,17 +141,25 @@ export const NOTABLE_APPOINTMENTS: InstitutionalAppointment[] = [
   {
     id: "appt-03",
     appointing_authority: "State of West Bengal / Prosecution Directorate",
-    role_or_capacity: "Sub-Divisional Public Prosecutor & APP/PP",
+    role_or_capacity: "Former Public Prosecutor (Sub-Divisional Public Prosecutor & APP/PP)",
     tenure: "10 Years Cumulative Service",
     jurisdiction_or_scope: "Sub-Divisional & District Criminal Courts",
     verification_status: "verified",
   },
   {
     id: "appt-04",
-    appointing_authority: "Barrackpore Training College",
+    appointing_authority: "SVSPA, Barrackpore Police Training College",
     role_or_capacity: "Lecturer",
     tenure: "Previous Academic Appointment",
-    jurisdiction_or_scope: "College Academic Instruction",
+    jurisdiction_or_scope: "Police Training College Academic Instruction",
+    verification_status: "verified",
+  },
+  {
+    id: "appt-04b",
+    appointing_authority: "Satyen Bose National Science College",
+    role_or_capacity: "Teacher of Law & Commercial Law",
+    tenure: "Previous Academic Appointment",
+    jurisdiction_or_scope: "Academic Instruction in Law & Commerce",
     verification_status: "verified",
   },
   {

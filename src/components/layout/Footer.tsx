@@ -57,9 +57,10 @@ export function Footer() {
               <BrandLogo size="lg" />
 
               <p className="font-sans text-sm text-muted-slate leading-relaxed max-w-md pt-2">
-                Advocate with a professional background spanning criminal and civil proceedings,
-                public prosecution, cybercrime and cyber law, banking and debt recovery, and land
-                and revenue-related legal work.
+                Dr. Surajit Sinha is an Advocate with a professional background spanning criminal law,
+                public prosecution, High Court and Supreme Court matters, civil proceedings, cybercrime
+                and cyber law, POCSO-related prosecution, banking and Debt Recovery Tribunal matters,
+                and land and revenue-related legal work.
               </p>
 
               <p className="font-sans text-xs text-muted-slate/85 leading-relaxed max-w-md">

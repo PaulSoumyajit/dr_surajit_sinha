@@ -185,6 +185,17 @@ export interface AcademicQualification {
   verification_status: VerificationStatus;
 }
 
+/** Honorary distinctions and honorary titles (kept separate from earned research degrees) */
+export interface HonoraryRecognition {
+  id: string;
+  title: string;
+  field: string;
+  conferring_body?: string;
+  description: string;
+  category: "honorary-doctorate" | "honorary-title" | "distinction";
+  verification_status: VerificationStatus;
+}
+
 /** Bar Council enrolment and court admissions */
 export interface ProfessionalAdmission {
   court_or_body: string;
@@ -246,6 +257,7 @@ export interface CounselProfile {
   state_bar_council: string | null;
   bar_associations: string[];
   academic_qualifications: AcademicQualification[];
+  honorary_recognitions?: HonoraryRecognition[];
   professional_admissions: ProfessionalAdmission[];
   chamber_address: string | null;
   court_chambers: string | null;
@@ -263,6 +275,7 @@ export interface CounselProfile {
 export type MatterCategory =
   | "Criminal Litigation"
   | "Public Prosecution"
+  | "High Court & Supreme Court Matters"
   | "Cybercrime & Cyber Law"
   | "POCSO Proceedings"
   | "Civil & Writ Proceedings"

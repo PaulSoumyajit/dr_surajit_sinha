@@ -69,8 +69,8 @@ export function CareerTimeline({
               <span className="italic text-forest">in Legal Practice &amp; Prosecution.</span>
             </h1>
             <p className="mt-5 text-base sm:text-lg md:text-xl font-sans text-charcoal/75 leading-relaxed">
-              A professional progression defined by criminal trial advocacy, public prosecution on behalf of the State,
-              cybercrime proceedings, and civil, banking, and land revenue litigation.
+              A professional progression defined by criminal trial advocacy, Former Public Prosecutor service,
+              High Court &amp; Supreme Court matters, cybercrime proceedings, and civil, banking, and land revenue litigation.
             </p>
           </div>
 

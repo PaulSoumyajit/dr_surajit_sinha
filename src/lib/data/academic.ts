@@ -1,4 +1,4 @@
-import type { AcademicQualification, TechnicalCertification } from "@/types";
+import type { AcademicQualification, TechnicalCertification, HonoraryRecognition } from "@/types";
 
 /**
  * Verified Academic Degrees & Research Disciplines
@@ -14,7 +14,7 @@ export const DOCTORAL_AND_DEGREES: AcademicQualification[] = [
   {
     degree: "Doctor of Philosophy (PhD)",
     specialisation: "Cyber Law and E-commerce",
-    honors: "Doctoral Research",
+    honors: "Doctoral Research — Role of Law in Controlling E-Commerce and Ethical Hacking in the Global Market",
     verification_status: "verified",
   },
   {
@@ -113,13 +113,42 @@ export const TECHNICAL_CERTIFICATIONS: TechnicalCertification[] = [
     date_or_period: "Professional Coursework",
   },
   {
-    id: "appointment-teaching",
-    title: "Lecturer — Commercial & Legal Studies",
+    id: "appointment-teaching-svspa",
+    title: "Lecturer — SVSPA, Barrackpore Police Training College",
     category: "Academic Teaching",
-    issuer: "Barrackpore Training College",
+    issuer: "SVSPA, Barrackpore Police Training College",
     description:
-      "Instruction in commercial principles, foundational legal frameworks, and regulatory systems delivered to college students.",
+      "Professional teaching experience as a Lecturer at SVSPA, Barrackpore Police Training College, delivering instruction within police training and administrative legal curricula.",
     date_or_period: "Academic Appointment",
+  },
+  {
+    id: "appointment-teaching-satyen-bose",
+    title: "Teacher of Law & Commercial Law",
+    category: "Academic Teaching",
+    issuer: "Satyen Bose National Science College",
+    description:
+      "Instruction in commercial law, foundational jurisprudence, and statutory legal frameworks.",
+    date_or_period: "Academic Appointment",
+  },
+];
+
+/**
+ * Additional Honorary Recognition
+ *
+ * Strict Compliance Note (Prompt Section 3):
+ * Honorary distinction, NOT an earned research doctorate.
+ * Must NOT be merged with the earned PhD in Cyber Law and E-commerce.
+ * Presented under dedicated honorary recognition without confusing double-doctorate titles.
+ */
+export const HONORARY_RECOGNITIONS: HonoraryRecognition[] = [
+  {
+    id: "hon-doctorate-ai",
+    title: "Honorary Doctorate",
+    field: "Artificial Intelligence and Machine-Level Language",
+    description:
+      "Conferred as an honorary distinction recognizing engagement with computing architectures, artificial intelligence, and machine-level language frameworks. This distinction is maintained separately from Dr. Sinha's earned Doctor of Philosophy (PhD) in Cyber Law and E-commerce.",
+    category: "honorary-doctorate",
+    verification_status: "verified",
   },
 ];
 

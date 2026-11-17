@@ -13,9 +13,9 @@ import type { PracticeArea, Publication, JournalArticle, Judgment, Article } fro
 
 export const SITE_CONFIG = {
   name: "Dr. Surajit Sinha",
-  title: "Dr. Surajit Sinha — Advocate | High Court & Lower Courts",
+  title: "Criminal Law. Public Prosecution. High Court & Supreme Court Matters. | Dr. Surajit Sinha — Advocate",
   description:
-    "Dr. Surajit Sinha is an Advocate whose professional background includes criminal law, public prosecution, POCSO-related prosecution, cybercrime and cyber law, civil and writ proceedings, banking and Debt Recovery Tribunal matters, and land and revenue-related legal work.",
+    "Dr. Surajit Sinha is an Advocate with a professional background spanning criminal law, public prosecution, High Court and Supreme Court matters, civil proceedings, cybercrime and cyber law, POCSO-related prosecution, banking and Debt Recovery Tribunal matters, and land and revenue-related legal work.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://surajitsinha.com",
   disciplines: COUNSEL_PROFILE.core_disciplines,
 };

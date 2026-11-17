@@ -17,7 +17,7 @@ const PILLARS: Pillar[] = [
     title: "Criminal Law & Public Prosecution",
     lead: "Factual rigor & due process.",
     description:
-      "Experienced representation across trial, appellate, and public prosecution proceedings, emphasizing statutory accuracy, evidentiary discipline, and procedural fairness.",
+      "Experienced representation across trial, appellate, High Court and Supreme Court matters, and public prosecution proceedings, emphasizing statutory accuracy, evidentiary discipline, and procedural fairness.",
     icon: (
       <svg
         className="w-5 h-5 text-forest"
@@ -58,10 +58,10 @@ const PILLARS: Pillar[] = [
   },
   {
     number: "03",
-    title: "Civil, Banking & Revenue Matters",
+    title: "High Court, Civil & DRT Matters",
     lead: "Substantive advocacy & dispute resolution.",
     description:
-      "Structured counsel across Debt Recovery Tribunals (DRT), civil litigation, writ jurisdiction, and land revenue administrative matters in West Bengal.",
+      "Structured counsel across High Court and Supreme Court proceedings, Debt Recovery Tribunals (DRT), civil litigation, writ jurisdiction, and land revenue administrative matters.",
     icon: (
       <svg
         className="w-5 h-5 text-forest"

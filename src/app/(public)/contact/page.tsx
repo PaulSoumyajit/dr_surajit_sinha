@@ -11,14 +11,14 @@ import { SITE_CONFIG } from "@/lib/seo";
 export const metadata: Metadata = {
   title: "Professional Details & Contact — Dr. Surajit Sinha, Advocate",
   description:
-    "Arrange preliminary consultations or submit matter briefing to Dr. Surajit Sinha, Advocate in criminal litigation, public prosecution, cyber law, and civil proceedings.",
+    "Arrange preliminary consultations or submit matter briefing to Dr. Surajit Sinha, Advocate in criminal litigation, public prosecution, High Court & Supreme Court matters, cyber law, and civil proceedings.",
   alternates: {
     canonical: `${SITE_CONFIG.url}/contact`,
   },
   openGraph: {
     title: "Professional Details & Contact — Dr. Surajit Sinha, Advocate",
     description:
-      "Direct consultation intake and preliminary matter briefing in criminal litigation, cyber law, and court proceedings.",
+      "Direct consultation intake and preliminary matter briefing in criminal litigation, High Court and Supreme Court matters, cyber law, and court proceedings.",
     url: `${SITE_CONFIG.url}/contact`,
     type: "website",
     locale: "en_IN",

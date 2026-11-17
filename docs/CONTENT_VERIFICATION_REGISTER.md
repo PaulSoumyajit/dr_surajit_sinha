@@ -19,9 +19,10 @@
 | **Canonical Name: Dr. Surajit Sinha** | Explicitly confirmed by owner | `CONFIRMED_BY_OWNER` & `PUBLISHED` | Published as canonical name across all pages, metadata, Schema.org, and CMS. Old spelling "Surojit" eliminated. |
 | **Title: Advocate — High Court & Lower Courts** | Confirmed by owner & CV reported | `CONFIRMED_BY_OWNER` & `PUBLISHED` | Displayed as official designation across hero, brand lockup, about, and footer. |
 | **Doctor of Philosophy (PhD)** | Explicitly confirmed by owner as legitimate and awarded | `CONFIRMED_BY_OWNER` & `PUBLISHED` | Degree is awarded. "Dr." title retained. Must never be labeled "pending". |
-| **PhD Specialisation: Cyber Law and E-commerce** | Explicitly confirmed by owner | `CONFIRMED_BY_OWNER` & `PUBLISHED` | Rendered as "Doctor of Philosophy (PhD) — Cyber Law and E-commerce". |
+| **PhD Specialisation & Research Subject** | Explicitly confirmed by owner | `CONFIRMED_BY_OWNER` & `PUBLISHED` | Specialisation: Cyber Law and E-commerce. Research Subject: *"Role of Law in Controlling E-Commerce and Ethical Hacking in the Global Market."* |
 | **PhD Awarding University & Year** | Not currently available to developer | `DOCUMENT_DETAILS_REQUIRED` | Do not invent an awarding university or award year. Omitted from public display without placeholder tags. |
-| **Doctoral Supervisor & Thesis Title** | Not provided | `DOCUMENT_DETAILS_REQUIRED` | Do not invent supervisor or thesis title beyond the confirmed specialisation. |
+| **Doctoral Supervisor** | Not provided | `DOCUMENT_DETAILS_REQUIRED` | Do not invent supervisor name. |
+| **Honorary Doctorate — AI & Machine-Level Language** | Supplied in candidate CV / information update | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Conferred as an honorary distinction. Must NEVER be merged with or described as an earned research PhD. Published exclusively under a dedicated "Additional Honorary Recognition" subsection. |
 
 ---
 
@@ -55,13 +56,18 @@
 
 | Experience / Appointment | Source | Status | Presentation Guidance |
 |---|---|---|---|
+| **Canonical Role: Former Public Prosecutor** | CV Reported & Confirmed | `CONFIRMED_BY_OWNER` & `PUBLISHED` | Prominently featured across biography and career history. Incorporates ~10 years cumulative public prosecution as APP, PP, and Sub-Divisional Public Prosecutor. |
 | **~19 Years Criminal Practice** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Primary subject of legal practice. Covers trial courts, sessions, and appellate criminal matters. |
-| **10 Years as APP & PP** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Previous prosecution experience representing the State. Distinct historical appointments. |
 | **Sub-Divisional Public Prosecutor** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Displayed as distinct previous public prosecution appointment. |
 | **District POCSO Public Prosecutor-in-Charge** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Dedicated POCSO experience. Safeguarding, procedural child protection, strict confidentiality. |
 | **District Cyber Crime Public Prosecutor** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Prosecution of computer offenses, electronic fraud, and digital evidence presentation. |
 | **Special Public Prosecutor (SPP) Appointment** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Specific SPP-related cybercrime appointment. Never confused with "Senior Advocate" designation. |
 | **Matters in Birbhum & Post-Polling Cases** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Factual trial experience without publishing identifying details of sensitive or ongoing matters. |
+| **Lower Court Senior Advocate (CV Terminology)** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Recorded from CV. Clarified as an advocate possessing extensive senior standing and experience appearing before lower courts. The formal statutory title "Senior Advocate" under Section 16 of the Advocates Act is not claimed in the absence of a gazetted High Court designation order. |
+| **Senior Advocate in Judges Court (CV Terminology)** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Recorded from CV. Conveys senior trial-court standing and leadership in Sessions and Judges Courts without claiming a formal statutory designation order. |
+| **Advocate of High Court (CV Terminology)** | CV Reported | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Described factually as "Advocate practising in High Court matters." Bar admissions remain documented without unverified claims of special Bar enrolment. |
+| **Member of High Court (CV Terminology)** | CV Reported | `DOCUMENT_DETAILS_REQUIRED` | Maintained in verification register awaiting identification of exact Bar Association (e.g. High Court Bar Association Calcutta, Bar Library Club, etc.). Not published as a standalone credential until exact body is confirmed. |
+| **High Court & Supreme Court Matters** | CV Reported & Confirmed | `CONFIRMED_BY_OWNER` & `PUBLISHED` | Dedicated positioning: *"Professional experience involving matters before the High Court and Supreme Court, alongside legal proceedings before lower courts."* No unverified case victories, appearances, or enrolment claimed. |
 
 ---
 
@@ -81,7 +87,8 @@
 | Organisation / Entity | Reported Role | Status | Presentation Guidance |
 |---|---|---|---|
 | **Jalan & Jalan Solicitor Firm, Kolkata** | 5 years work; banking, DRT, corporate & ROC | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Factual historical association. Banking litigation and corporate exposure. |
-| **Barrackpore Training College** | Lecturer | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Academic and teaching experience entry without fabricated tenure dates. |
+| **SVSPA, Barrackpore Police Training College** | Lecturer | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Academic teaching experience as Lecturer at SVSPA, Barrackpore Police Training College. Abbreviation SVSPA preserved exactly as supplied. |
+| **Satyen Bose National Science College** | Teacher of Law & Commercial Law | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Academic teaching experience delivering instruction in law and commercial law subjects. |
 | **SBA Associates, CA Firm, Kolkata** | Audit work (UTI/Axis Bank, IFB Agro, various banks) | `CV_REPORTED` & `APPROVED_FOR_PUBLICATION` | Historical audit & financial exposure. Stated clearly as audit experience, not legal client representation. |
 | **TRDA, Rampurhat Municipality, College, LDV Bank, Sahapur Panchayat, BDO-1** | Legal advisory associations | `CV_REPORTED` & `DOCUMENT_DETAILS_REQUIRED` | Mentioned neutrally as CV-reported previous advisory associations without logos or implying active retainers. |
 | **Collaboration: Shaktinath Chatterjee** | Tarapith Electric Crematorium matter | `CV_REPORTED` & `DOCUMENT_DETAILS_REQUIRED` | Described as reported professional collaboration. Case victory claims omitted without official judgment citation. |

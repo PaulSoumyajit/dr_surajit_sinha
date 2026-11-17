@@ -13,7 +13,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     slug: "criminal-litigation",
     title: "Criminal Law & Criminal Litigation",
     description:
-      "Trial, sessions, and appellate criminal defense and prosecution experience spanning approximately 19 years across Birbhum district courts and the High Court, emphasizing evidentiary discipline and due process.",
+      "Trial, sessions, and appellate criminal defense and prosecution experience spanning approximately 19 years across lower courts, Sessions Courts, and High Court and Supreme Court matters, emphasizing evidentiary discipline and due process.",
     order_index: 1,
     verification_status: "verified",
     statutory_touchpoints: [
@@ -21,17 +21,20 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       "Indian Penal Code, 1860 (IPC) / BNS",
       "Indian Evidence Act, 1872 / BSA",
       "Bail & Anticipatory Bail Petitions",
+      "Sessions & Judges Court Advocacy",
+      "High Court & Supreme Court Matters",
     ],
   },
   {
     id: "pa-02",
     slug: "public-prosecution",
-    title: "Public Prosecution",
+    title: "Public Prosecution (Former Public Prosecutor)",
     description:
-      "A decade of public prosecution experience representing the State as Assistant Public Prosecutor (APP), Public Prosecutor (PP), and Sub-Divisional Public Prosecutor across trial and special criminal courts.",
+      "A decade of public prosecution experience representing the State as Former Public Prosecutor, including service as Assistant Public Prosecutor (APP), Public Prosecutor (PP), Sub-Divisional Public Prosecutor and District POCSO PP in-charge, across trial and special criminal courts.",
     order_index: 2,
     verification_status: "verified",
     statutory_touchpoints: [
+      "Former Public Prosecutor Mandates",
       "State Criminal Prosecution",
       "Sub-Divisional Prosecutor Mandates",
       "Sessions Trials & Inquiries",
@@ -41,7 +44,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   {
     id: "pa-03",
     slug: "pocso-proceedings",
-    title: "POCSO Proceedings",
+    title: "POCSO Proceedings & Defence",
     description:
       "Specialized prosecution experience as District POCSO Public Prosecutor-in-Charge, adhering strictly to child safeguarding frameworks, statutory evidentiary standards, and in-camera confidentiality.",
     order_index: 3,
@@ -58,7 +61,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     slug: "cyber-law",
     title: "Cybercrime & Cyber Law",
     description:
-      "Distinctive legal domain combining law and technology, grounded in a doctoral thesis in Cyber Law and E-commerce, technical certifications in ethical hacking and networking, and experience as District Cyber Crime Public Prosecutor.",
+      "Distinctive legal domain combining law and technology, grounded in a doctoral thesis in Cyber Law and E-commerce (Role of Law in Controlling E-Commerce and Ethical Hacking), technical certifications in ethical hacking and networking, and experience as District Cyber Crime Public Prosecutor.",
     order_index: 4,
     verification_status: "verified",
     statutory_touchpoints: [
@@ -71,14 +74,15 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   {
     id: "pa-05",
     slug: "civil-writ-proceedings",
-    title: "Civil & Writ Proceedings",
+    title: "Civil Litigation & High Court Matters",
     description:
-      "Advocacy and briefcraft in civil suits, title disputes, injunction applications, and constitutional writ petitions before the High Court and subordinate civil courts.",
+      "Advocacy and briefcraft in civil suits, title disputes, injunction applications, and High Court and Supreme Court matters, alongside constitutional writ petitions and subordinate civil proceedings.",
     order_index: 5,
     verification_status: "verified",
     statutory_touchpoints: [
       "Code of Civil Procedure, 1908 (CPC)",
       "Constitution of India (Articles 226 & 227)",
+      "High Court & Supreme Court Proceedings",
       "Specific Relief Act, 1963",
       "Transfer of Property Act, 1882",
     ],

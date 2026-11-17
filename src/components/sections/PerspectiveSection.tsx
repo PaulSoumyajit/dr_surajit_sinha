@@ -67,10 +67,10 @@ export function PerspectiveSection() {
                   significant legal consequences for individuals, institutions, and the rule of law.
                 </p>
                 <p>
-                  With extensive experience spanning trial advocacy, public prosecution, and judicial
-                  proceedings across the High Court and subordinate courts, the focus remains steadfast:
-                  upholding professional responsibility, critically evaluating records, and presenting
-                  principled legal arguments grounded in honesty, integrity, and public welfare.
+                  With extensive experience spanning trial advocacy, Former Public Prosecutor service,
+                  and judicial proceedings across the High Court, Supreme Court matters, and subordinate courts,
+                  the focus remains steadfast: upholding professional responsibility, critically evaluating records,
+                  and presenting principled legal arguments grounded in honesty, integrity, and public welfare.
                 </p>
               </div>
 

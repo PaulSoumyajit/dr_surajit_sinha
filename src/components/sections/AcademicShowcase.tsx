@@ -2,7 +2,7 @@ import React from "react";
 import { Container } from "@/components/ui/Container";
 import { Badge } from "@/components/ui/Badge";
 import { Reveal } from "@/components/ui/Reveal";
-import { DOCTORAL_AND_DEGREES, RESEARCH_THEMES } from "@/lib/data/academic";
+import { DOCTORAL_AND_DEGREES, RESEARCH_THEMES, HONORARY_RECOGNITIONS } from "@/lib/data/academic";
 
 /**
  * Academic Background & Doctoral Research Showcase
@@ -78,6 +78,63 @@ export function AcademicShowcase() {
                 </div>
               </div>
             ))}
+          </div>
+
+          {/* Additional Honorary Recognition Subsection */}
+          <div className="mb-16">
+            <div className="max-w-2xl mb-8">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-forest/5 border border-forest/15 text-xs font-sans font-semibold uppercase tracking-[0.14em] text-forest mb-3">
+                <span>ADDITIONAL RECOGNITION &bull; HONORARY DISTINCTION</span>
+              </div>
+              <h2 className="font-serif text-2xl sm:text-3xl font-normal text-charcoal">
+                Additional Honorary Recognition
+              </h2>
+              <p className="mt-2 text-sm sm:text-base font-sans text-charcoal/75 leading-relaxed">
+                Honorary titles and distinctions conferred in specialized multidisciplinary fields,
+                maintained separately from earned academic degrees and doctoral research.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+              {HONORARY_RECOGNITIONS.map((hon) => (
+                <div
+                  key={hon.id}
+                  className="group relative overflow-hidden rounded-2xl bg-surface-card border border-border-subtle p-6 sm:p-8 flex flex-col justify-between shadow-xs transition-all duration-300 hover:shadow-xl hover:border-forest/40 hover:-translate-y-1 motion-reduce:transform-none"
+                >
+                  <div
+                    className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-forest/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    aria-hidden="true"
+                  />
+
+                  <div>
+                    <div className="flex items-center gap-2 text-xs font-mono text-charcoal/60 mb-2">
+                      <span className="font-semibold text-muted-slate uppercase tracking-wider">
+                        Honorary Distinction
+                      </span>
+                      <span>&bull;</span>
+                      <span className="capitalize">{hon.verification_status} Record</span>
+                    </div>
+
+                    <h3 className="font-serif text-2xl font-normal text-charcoal leading-snug">
+                      {hon.title}
+                    </h3>
+
+                    <p className="text-sm font-sans italic text-forest mt-1.5 font-medium">
+                      Field: {hon.field}
+                    </p>
+
+                    <p className="text-xs sm:text-sm font-sans text-charcoal/70 mt-3 leading-relaxed">
+                      {hon.description}
+                    </p>
+                  </div>
+
+                  <div className="mt-6 pt-4 border-t border-border-subtle/80 flex items-center justify-between text-xs font-sans text-charcoal/60">
+                    <span className="text-muted-slate font-medium">Honorary Distinction</span>
+                    <span>Distinct from Earned PhD in Cyber Law</span>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
 
           {/* Research Themes Banner Card */}

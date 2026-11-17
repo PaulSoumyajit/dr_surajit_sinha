@@ -21,6 +21,7 @@ export const COUNSEL_PROFILE: CounselProfile = {
   title: "Advocate — High Court & Lower Courts",
   core_disciplines: [
     "Criminal Law & Public Prosecution",
+    "High Court & Supreme Court Matters",
     "Cybercrime & Cyber Law",
     "POCSO Proceedings",
     "Civil & Writ Litigation",
@@ -41,7 +42,7 @@ export const COUNSEL_PROFILE: CounselProfile = {
       institution: "Doctoral Research in Law (Awarded)",
       specialisation: "Cyber Law and E-commerce",
       year: null,
-      honors: "Doctor of Philosophy in Cyber Law and E-commerce",
+      honors: "Research: Role of Law in Controlling E-Commerce and Ethical Hacking in the Global Market",
       verification_status: "verified",
     },
     {
@@ -100,12 +101,23 @@ export const COUNSEL_PROFILE: CounselProfile = {
       verification_status: "verified",
     },
   ],
+  honorary_recognitions: [
+    {
+      id: "hon-doc-ai",
+      title: "Honorary Doctorate",
+      field: "Artificial Intelligence and Machine-Level Language",
+      description:
+        "Conferred as an honorary distinction recognizing engagement with computing architectures, artificial intelligence frameworks, and machine-level language systems. Maintained distinctly as a separate honorary recognition and not an earned research doctorate.",
+      category: "honorary-doctorate",
+      verification_status: "verified",
+    },
+  ],
   professional_admissions: [
     {
       court_or_body: "High Court at Calcutta & Subordinate Courts",
       enrolment_number: null,
       year: null,
-      standing: "Advocate (~19 Years Practice)",
+      standing: "Advocate practising in High Court & Lower Courts (~19 Years Practice)",
       jurisdiction: "West Bengal & India",
       verification_status: "verified",
     },
@@ -114,6 +126,22 @@ export const COUNSEL_PROFILE: CounselProfile = {
       enrolment_number: null,
       year: null,
       standing: "Enrolled Advocate (Advocates Act, 1961)",
+      jurisdiction: "India",
+      verification_status: "verified",
+    },
+    {
+      court_or_body: "State Public Prosecution Directorate",
+      enrolment_number: null,
+      year: null,
+      standing: "Former Public Prosecutor (APP, PP, Sub-Divisional PP)",
+      jurisdiction: "Birbhum & West Bengal",
+      verification_status: "verified",
+    },
+    {
+      court_or_body: "Superior Courts & Appellate Jurisdiction",
+      enrolment_number: null,
+      year: null,
+      standing: "High Court & Supreme Court Matters",
       jurisdiction: "India",
       verification_status: "verified",
     },

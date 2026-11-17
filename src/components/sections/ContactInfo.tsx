@@ -42,9 +42,11 @@ export function ContactInfo({ className }: ContactInfoProps) {
             Consultation &amp; Matter Briefing
           </h2>
           <p className="mt-3 text-sm sm:text-base font-sans text-charcoal/75 leading-relaxed">
-            Dr. Surajit Sinha maintains an independent counsel practice across criminal litigation,
-            public prosecution proceedings, cyber law, civil litigation, and banking dispute resolution.
-            Preliminary conferences are arranged for matter briefing, legal evaluation, and court representation.
+            Dr. Surajit Sinha maintains an independent counsel practice spanning criminal law,
+            public prosecution, High Court and Supreme Court matters, civil proceedings, cybercrime
+            and cyber law, POCSO-related prosecution, banking and Debt Recovery Tribunal matters,
+            and land and revenue-related legal work. Preliminary conferences are arranged for matter
+            briefing, legal evaluation, and court representation.
           </p>
         </div>
 
@@ -64,7 +66,7 @@ export function ContactInfo({ className }: ContactInfoProps) {
               <strong className="font-medium text-charcoal">Bar Standing:</strong> Enrolled Advocate, Advocates Act, 1961
             </p>
             <p>
-              <strong className="font-medium text-charcoal">Primary Venues:</strong> High Court of Calcutta &amp; Subordinate Courts (Sessions, Special POCSO, Cyber &amp; DRT)
+              <strong className="font-medium text-charcoal">Primary Venues:</strong> High Court, Supreme Court Matters &amp; Subordinate Courts (Judges Court, Sessions, POCSO, Cyber &amp; DRT)
             </p>
           </div>
         </div>
